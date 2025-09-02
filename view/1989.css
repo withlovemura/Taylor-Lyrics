@@ -1,0 +1,19 @@
+.botao-voltar {
+  font-family: 'Poppins', sans-serif; 
+  position: absolute;
+  top: 20px;     /* distância do topo */
+  left: 20px;    /* distância da esquerda */
+  padding: 10px 20px;
+  color: rgb(57, 235, 255);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  z-index: 1000; /* garante que fique por cima de tudo */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}

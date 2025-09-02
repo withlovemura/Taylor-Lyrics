@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(255, 241, 209);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.botao-voltar {
+  font-family: 'Poppins', sans-serif; 
+  position: absolute;
+  top: 20px;     /* distância do topo */
+  left: 20px;    /* distância da esquerda */
+  padding: 10px 20px;
+  color: rgb(25, 114, 25);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  z-index: 1000; /* garante que fique por cima de tudo */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.botao-voltar img {
+  width: 30px;     /* Largura da seta */
+  height: auto;    /* Mantém a proporção da imagem */
+  vertical-align: middle; /* Alinha com o texto, se houver */
+  margin-right: 8px; /* Espaço entre a seta e o texto */
+}
+
+.botao-voltar:hover {
+  background-color: #b2e8c1;
+  transform: translateY(-2px);  
+}
